@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.leftcontainer {
+    background-color: white;
+    width: 20%;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+   
+}
+
+.profileinfo {
+    margin-top: 30px;
+    font-size: 12pt;
+    font-weight: 450;
+}
+
+hr {
+    margin: 0 30px;
+}
+
+.skillsinfo {
+    margin: 0;
+}
+
+.skillsinfo h1 {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.skillsinfo h3 {
+    font-size: 12pt;
+    margin-top: 30px;
+}
+
+.skillsinfo li {
+    list-style: none;
+
+}
+
+.bar {
+    height: 14px;
+    background: #353b48;
+    display: block;
+    border: 0.1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
+
+.bar span {
+    background: lightgreen;
+    float: left;
+    height: 15px;
+}
+
+.html {
+    width: 90%;
+}
+
+.javascript {
+    width: 70%;
+}
+
+.coreldraw {
+    width: 85%;
+}
+
+.filmora {
+    width: 75%;
+}
+
+.css {
+    width: 85%;
+}
+
+.illustrator {
+    width: 85%;
+}
+
+.wordpress {
+    width: 80%;
+}
+
+.rightcontainer {
+    background: white;
+    float: right;
+    margin-top: -95.2%;
+    width: 78%;
+    margin-right: 9px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 250.5vh;
+
+}
+
+.workinfo {
+    margin: 0 10px;
+}
+
+.workinfo h1 {
+    font-weight: bold;
+    font-size: 20pt;
+
+
+}
+
+.workinfo h2 {
+
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.workinfo h3 {
+    font-size: 15pt;
+    font-weight: 400;
+    margin-left: 10px !important;
+
+
+}
+
+.traininginfo {
+    margin-left: 60px;
+    font-size: 15pt;
+}
+
+.educationinfo {
+    margin: 0 10px;
+
+}
+
+.educationinfo h1 {
+    font-weight: bold;
+    font-size: 20pt;
+
+
+}
+
+.educationinfo h2 {
+
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.educationinfo h3 {
+    font-size: 15pt;
+    margin-left: 10px !important;
+}
+
+.characterref {
+    margin: 0 10px;
+}
+
+.characterref h1 {
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+
+
+}
+
+.characterref h2 {
+    font-size: 18pt;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.characterref p {
+    text-align: center;
+    font-size: 15pt;
+}
+
+@media (max-width:768px) {
+    .leftcontainer {
+        background: white;
+        width: 100%;
+        border-radius: 0px;
+        padding-left: 5px;
+
+    }
+
+    .rightcontainer {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 0px;
+    }
+
+    body {
+        background-color: white !important;
+    }
+
+    .workinfo h3 {
+        text-align: left;
+        float: none;
+    }
+
+    .traininginfo {
+        padding: 0 20px;
+        text-align: left;
+    }
+    
+}
+
+@media (min-width:1980px) {
+    .rightcontainer {
+        margin-top: -72.6%;
+    }
+}
+
